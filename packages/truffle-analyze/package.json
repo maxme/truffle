@@ -1,0 +1,16 @@
+{
+  "name": "truffle-analyze",
+  "version": "1.0.0",
+  "description": "Static analysis on solidity contracts",
+  "keywords": [
+    "ethereum",
+    "truffle"
+  ],
+  "author": "Maxime Biais <maxime.biais@gmail.com>",
+  "license": "MIT",
+  "main": "analyze.js",
+  "scripts": {
+    "lint": "eslint ./index.js ./lib || true",
+    "test": "mocha"
+  }
+}
